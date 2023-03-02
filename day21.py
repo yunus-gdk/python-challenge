@@ -5,10 +5,12 @@
 
 
 def make_tuples(*args):
+  # print(len(args))
+  # print(len(args[0]))
   list1 = args[0]
   list2 = args[1]
-
-  print([(x, y) for x, y in zip(list1, list2)])
+  while i < len(args[0]):
+    tupple
 
 
 make_tuples([1, 2, 3, 4], [5, 6, 7, 8])
