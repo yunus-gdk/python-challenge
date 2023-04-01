@@ -18,9 +18,7 @@ def password_validator():
   nbUpper = 0
   for i in password:
     if i.isdigit(): nbDigit += 1
-  for i in password:
     if i.islower(): nbLower += 1
-  for i in password:
     if i.isupper(): nbUpper += 1
 
   if ((nbDigit and nbLower and nbUpper) > 0
